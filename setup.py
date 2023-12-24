@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="projeto_eltonfernandes",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
+    author="Elton Fernandes",
+    author_email="eltonfernandes.ti@gmail.com",
     description="My short description",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    #url="git@github.com:3lton86/projeto_dadosgov.git"
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
